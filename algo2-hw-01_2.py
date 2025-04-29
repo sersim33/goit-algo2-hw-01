@@ -18,5 +18,5 @@ def quickselect(arr, k):
         return quickselect(highs, k - len(lows) - len(pivots))
 
 arr = [38, 113, 43, 29, 9, 82, 44]
-k = 1
+k = 4
 print(quickselect(arr, k))
